@@ -49,4 +49,30 @@ To make calculations faster, we can use logarithms,
 * negative words have lambda < 0
 * neutral words have lambda = ~0
 
-Check out the notebook for implementation
+Check out the notebook for implementation.
+
+## Algorithm:
+
+1. Collect Data
+2. Preprocessing Data
+3. Training Naive Bayes:
+* Tokenise
+* Word Count + Laplacian Smoothing
+* calculate ratios
+* calculate lambda(w)
+* estimation of logprior = log(Number of positive tweets/Number of negative tweets)
+4. Testing Naive Bayes:
+* find all unique words in sentence
+* replace with lambda
+* add everything + logprior
+
+Output interpretation:
+
+* positive words have lambda > 0
+* negative words have lambda < 0
+* neutral words have lambda = ~0
+
+## Assumptions:
+
+1. Assumes independence, which is a big problem as sequence is an integral part of NLP
+2. Depends on relative frequencies in corpus. (Biased datasets)
