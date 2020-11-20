@@ -33,3 +33,4 @@
 3. GPT
 4. Glove
 5. Word2vec
+6. Infersent
