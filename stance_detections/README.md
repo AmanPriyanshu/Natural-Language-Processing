@@ -21,4 +21,3 @@
 19. Ada Boost
 20. XGBoost
 21. Probabilistic Latent Semantic Analysis (PLSA)
-22. 
