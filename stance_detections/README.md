@@ -24,3 +24,12 @@
 22. Transformers
 23. Attention Models
 24. GNN
+25. Embeddings
+
+## Popular Embeds and Models:
+
+1. Universal Sentence Encoder
+2. BERT
+3. GPT
+4. Glove
+5. Word2vec
